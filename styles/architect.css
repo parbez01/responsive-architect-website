@@ -42,27 +42,58 @@ nav li a {
 
 /* banner styles */
 
-.banner-content{
+.banner-content {
     max-width: 800px;
     text-align: center;
     margin: 0 auto;
 }
-.banner-title{
-    color:#131313;
-font-size: 4rem;
-font-weight: 700;
+
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
 }
-.banner-description{
+
+.banner-description {
     color: #727272;
 }
-.btn-primary{
-    width: 180px;
-height: 64px;
-border-radius: 8px;
-background: #FF900E;
-color: #fff;
-font-size: 20px;
-font-weight: 600;
-border: 0;
-margin-top: 43px;
+
+.btn-primary {
+    border-radius: 8px;
+    background: #FF900E;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: 0;
+    margin-top: 30px;
+    padding: 20px 25px;
+    cursor: pointer;
+}
+.banner img{
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* responsive style */
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+}
+
+/* for tableb */
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
 }
